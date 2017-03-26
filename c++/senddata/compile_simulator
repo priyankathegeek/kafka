@@ -1,0 +1,3 @@
+g++-4.9 -mmacosx-version-min=10.7 -std=gnu++11 -c ./SendData.cpp
+
+g++-4.9 -mmacosx-version-min=10.7 -std=gnu++11 SendData.o -o SendData /usr/local/lib/liblsl.dylib -lboost_thread-mt -lboost_system -lboost_filesystem
